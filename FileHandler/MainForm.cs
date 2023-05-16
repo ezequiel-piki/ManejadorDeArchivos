@@ -209,5 +209,10 @@ namespace FileHandler
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnNewFile_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

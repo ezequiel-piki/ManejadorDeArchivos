@@ -47,13 +47,16 @@
             txtSource = new TextBox();
             btnCopy = new Button();
             label3 = new Label();
+            btnNewFile = new Button();
+            txtNewFile = new TextBox();
+            lblNewFile = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // txtSystemDetails
             // 
             txtSystemDetails.Location = new Point(8, 42);
-            txtSystemDetails.Margin = new Padding(2, 2, 2, 2);
+            txtSystemDetails.Margin = new Padding(2);
             txtSystemDetails.Multiline = true;
             txtSystemDetails.Name = "txtSystemDetails";
             txtSystemDetails.Size = new Size(329, 222);
@@ -63,7 +66,7 @@
             // 
             cboSytemDrives.FormattingEnabled = true;
             cboSytemDrives.Location = new Point(8, 7);
-            cboSytemDrives.Margin = new Padding(2, 2, 2, 2);
+            cboSytemDrives.Margin = new Padding(2);
             cboSytemDrives.Name = "cboSytemDrives";
             cboSytemDrives.Size = new Size(329, 23);
             cboSytemDrives.TabIndex = 1;
@@ -161,7 +164,7 @@
             panel1.Controls.Add(btnCopy);
             panel1.Controls.Add(label3);
             panel1.Location = new Point(344, 115);
-            panel1.Margin = new Padding(2, 2, 2, 2);
+            panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
             panel1.Size = new Size(610, 147);
             panel1.TabIndex = 12;
@@ -220,11 +223,41 @@
             label3.TabIndex = 13;
             label3.Text = "Copy Directory";
             // 
+            // btnNewFile
+            // 
+            btnNewFile.Location = new Point(818, 274);
+            btnNewFile.Name = "btnNewFile";
+            btnNewFile.Size = new Size(133, 23);
+            btnNewFile.TabIndex = 15;
+            btnNewFile.Text = "Create New File";
+            btnNewFile.UseVisualStyleBackColor = true;
+            btnNewFile.Click += btnNewFile_Click;
+            // 
+            // txtNewFile
+            // 
+            txtNewFile.Location = new Point(547, 275);
+            txtNewFile.Name = "txtNewFile";
+            txtNewFile.Size = new Size(265, 23);
+            txtNewFile.TabIndex = 14;
+            // 
+            // lblNewFile
+            // 
+            lblNewFile.AutoSize = true;
+            lblNewFile.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblNewFile.Location = new Point(402, 278);
+            lblNewFile.Name = "lblNewFile";
+            lblNewFile.Size = new Size(83, 15);
+            lblNewFile.TabIndex = 13;
+            lblNewFile.Text = "New File Path";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(970, 270);
+            ClientSize = new Size(1233, 399);
+            Controls.Add(btnNewFile);
+            Controls.Add(txtNewFile);
+            Controls.Add(lblNewFile);
             Controls.Add(panel1);
             Controls.Add(cboListFiles);
             Controls.Add(btnListFiles);
@@ -237,7 +270,7 @@
             Controls.Add(label1);
             Controls.Add(cboSytemDrives);
             Controls.Add(txtSystemDetails);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "MainForm";
             Text = "File Handler";
             panel1.ResumeLayout(false);
@@ -267,5 +300,8 @@
         private Label lblDestination;
         private TextBox txtSource;
         private Button btnCopy;
+        private Button btnNewFile;
+        private TextBox txtNewFile;
+        private Label lblNewFile;
     }
 }
