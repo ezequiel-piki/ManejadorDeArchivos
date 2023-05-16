@@ -1,0 +1,17 @@
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.csproj.AssemblyReference.cache
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.MainForm.resources
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.csproj.GenerateResource.cache
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.AssemblyInfoInputs.cache
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.AssemblyInfo.cs
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.exe
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.deps.json
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.runtimeconfig.json
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.dll
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.pdb
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.dll
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\refint\FileHandler.dll
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.pdb
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.genruntimeconfig.cache
+C:\Users\Ezequiel Benitez\Desktop\C#\FileHandler\FileHandler\obj\Debug\net6.0-windows\ref\FileHandler.dll
